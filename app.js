@@ -1,4 +1,4 @@
-//document.addEventListener('DomContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {          
 
     //card options
     const cardArray = [
@@ -113,8 +113,7 @@
         if (cardsChosen.length === 2) {
             setTimeout(checkForMatch, 500) 
         }
-        createBoard()
     }
-
-
+    createBoard()
+})
 
